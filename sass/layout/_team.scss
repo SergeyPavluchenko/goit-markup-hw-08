@@ -1,0 +1,55 @@
+.main h1{
+    display: none;
+    text-align: center;
+}
+
+.employee{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--header-text-color);
+    margin-bottom: 10px;
+}
+
+.team-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--text-color)
+}
+
+.team-li{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.team-icon:not(:last-child){
+    margin-right: 10px;
+}
+
+.team-link{
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        background-color: #2196F3;
+}
+
+}
+
+.team-link-svg{
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .team-link:hover &,
+    .team-link:focus &{
+        fill: #FFFFFF;
+}
+}
