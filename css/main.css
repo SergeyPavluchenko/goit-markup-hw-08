@@ -20,10 +20,25 @@ ul {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }
 
 .list {
@@ -439,22 +454,6 @@ body {
   padding-bottom: 94px;
 }
 
-.section-team {
-  background-color: #F5F4FA;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.header-team {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--header-text-color);
-}
-
 .main-section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -489,6 +488,7 @@ body {
 }
 
 .work-svg {
+  margin-bottom: 30px;
   width: 270px;
   height: 120px;
   background-color: #F5F4FA;
@@ -500,17 +500,21 @@ body {
 }
 
 .work-list {
-  text-align: start;
+  text-align: center;
   display: flex;
   justify-content: space-between;
 }
 
 .work-priorities {
-  max-width: 270px;
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 .priority {
-  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 700;
   line-height: 1.14;
@@ -576,15 +580,53 @@ body {
   margin-left: 30px;
 }
 
-.list-team {
-  display: flex;
-}
-.list-team:not(:last-child) {
-  margin-right: 30px;
+.main h1 {
+  display: none;
+  text-align: center;
 }
 
-.team:not(:last-child) {
-  margin-right: 30px;
+.section-team {
+  background-color: #F5F4FA;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .section-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.header-team {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+@media screen and (min-width: 1200px) {
+  .header-team {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+}
+
+.list-team {
+  margin-bottom: -30px;
+}
+@media screen and (min-width: 768px) {
+  .list-team {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-bottom: -30px;
+  }
 }
 
 .team {
@@ -592,9 +634,20 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+@media screen and (min-width: 768px) {
+  .team {
+    width: calc(50% - 30px);
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team {
+    width: calc(25% - 30px);
+  }
+}
 
 .img-team {
-  display: block;
   width: 100%;
   height: auto;
 }
@@ -603,11 +656,6 @@ body {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
-}
-
-.main h1 {
-  display: none;
-  text-align: center;
 }
 
 .employee {

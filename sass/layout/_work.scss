@@ -31,9 +31,7 @@
     background-color: #F5F4FA;
     border-radius: 4px;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 .priority{
     margin-bottom: 10px;
@@ -49,9 +47,4 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-color);
-}
-
-.section-img{
-    padding-bottom: 94px;
-    padding-top: 94px;
 }
