@@ -534,6 +534,25 @@ body {
   padding-bottom: 94px;
   padding-top: 94px;
 }
+@media screen and (min-width: 480px) {
+  .section-img {
+    max-width: 480px;
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-img {
+    max-width: 768px;
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-img {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 
 .head-img {
   display: flex;
