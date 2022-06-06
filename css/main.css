@@ -478,6 +478,17 @@ body {
   letter-spacing: 0.06em;
 }
 
+.section-work {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .section-work {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 .priority-work {
   display: none;
 }
@@ -751,8 +762,14 @@ body {
 
 .section-client {
   background-color: #FFFFFF;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .section-client {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .client-header {
