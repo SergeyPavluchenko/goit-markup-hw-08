@@ -3,19 +3,7 @@
 }
 
 .business{
-    // @media screen and (mam-width: 480px) {
-    //     background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/buissness-bg-mob-x1.jpg);
-    //     background-repeat:no-repeat;
-    // @media screen and (min-width: 480px) {
-    //     background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/buissness-bg-mob-x1.jpg);
-    //     background-repeat:no-repeat;
-    //     background-size: cover;
-    // }
-    // @media screen and (min-width: 768px) {
-    //     background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/buissness-bg-tab-x1.jpg);
-    //     background-repeat:no-repeat;
-    //     }
-    // text-align: center;
+    text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: var(--background-color);
@@ -27,37 +15,39 @@
     background-repeat: no-repeat;
 }
 
-.business-container{
-    width: 100%;
-}
-
 .business-container__head{
+    max-width: 696px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
     font-weight: 900;
-    font-size: 26px;
-    line-height: 1.62;
-    text-align: center;
+    font-size: 44px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
+    text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
-
-
-    // max-width: 696px;
-    // margin-top: auto;
-    // margin-right: auto;
-    // margin-bottom: 30px;
-    // margin-left: auto;
-    // font-weight: 900;
-    // font-size: 44px;
-    // line-height: 1.36;
-    // letter-spacing: 0.06em;
-    // text-align: center;
-    // text-transform: uppercase;
 }
 .section-work{
     text-align: center;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+.section-team{
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.header-team{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header-text-color)
+    }
 
 .main-section{
     padding-top: 94px;
