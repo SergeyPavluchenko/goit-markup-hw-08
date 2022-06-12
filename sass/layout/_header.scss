@@ -16,7 +16,7 @@
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         padding-top: 21px;
         padding-bottom: 21px;
-        .contacts__list{
+        .contacts{
             display: block;
             justify-content: center;
             align-items: center;
@@ -36,6 +36,9 @@
     }
 }
     @media screen and (min-width: 1200px) {
+        .contacts__list + .contacts__list{
+            margin-left: 30px;    
+        }
         .mob-menu{
             display: none;
     }
@@ -114,11 +117,6 @@
     align-items: center;
     margin-left: auto;
 }
-
-.contacts__list + .contacts__list{
-    margin-left: 30px;    
-}
-
 
 .contacts__icon{
     margin-right: 10px;

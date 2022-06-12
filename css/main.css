@@ -365,7 +365,7 @@ body {
     padding-top: 21px;
     padding-bottom: 21px;
   }
-  .header .contacts__list {
+  .header .contacts {
     display: block;
     justify-content: center;
     align-items: center;
@@ -384,6 +384,9 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
+  .header .contacts__list + .contacts__list {
+    margin-left: 30px;
+  }
   .header .mob-menu {
     display: none;
   }
@@ -443,10 +446,6 @@ body {
   display: flex;
   align-items: center;
   margin-left: auto;
-}
-
-.contacts__list + .contacts__list {
-  margin-left: 30px;
 }
 
 .contacts__icon {
