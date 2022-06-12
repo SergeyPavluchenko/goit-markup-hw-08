@@ -350,7 +350,14 @@ body {
 }
 @media screen and (max-width: 480px) {
   .header {
-    max-width: 480px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .header .menu {
+    display: none;
+  }
+  .header .contacts__list {
+    display: none;
   }
 }
 
@@ -431,6 +438,18 @@ body {
 }
 .contacts__link:hover, .contacts__link:focus {
   color: #2196F3;
+}
+
+.button-mob {
+  display: flex;
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.button-menu {
+  background-color: #ffffff;
 }
 
 .modal-section {
