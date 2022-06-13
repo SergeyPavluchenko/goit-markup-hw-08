@@ -151,7 +151,7 @@
 }
 
 .mob-disp-menu{
-    z-index: 1;
+    z-index: 2;
     position: fixed;
     overflow-y: auto;
     top: 0;
@@ -159,14 +159,12 @@
     background-color: #ffffff;
     width: 100vw;
     height: 100vh;
-    padding-top: 48px;
-    padding-bottom: 48px;
     .container{
         padding-top: 10px;
     }
 }
 
-.button-mob-close{
+.mob-close-btn{
     display: block;
     margin-left: auto;
     border: none;
