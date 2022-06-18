@@ -32,6 +32,9 @@
         margin-bottom: 30px;
         width: 354px;
         height: 251px;
+        .work-priorities:not(:last-child){
+            margin-right: 30px;
+            }
     }
     @media screen and (min-width: 1200px) {
         width: 270px;
@@ -40,10 +43,6 @@
 
     text-align: left;
     
-}
-
-.work-priorities:not(:last-child){
-margin-right: 30px;
 }
 
 .work-svg{
