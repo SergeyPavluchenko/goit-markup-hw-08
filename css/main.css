@@ -92,8 +92,8 @@ body {
 .modal {
   position: absolute;
   padding: 40px;
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -198,13 +198,21 @@ body {
   background-repeat: no-repeat;
 }
 
-.modal-check__text {
-  color: #2196F3;
-  text-decoration: underline;
+.modal-check__terms {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.1666666667;
   letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.modal-check__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.1666666667;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: #2196F3;
 }
 
 .modal-box1 {
@@ -240,9 +248,7 @@ body {
 .button-modal {
   position: absolute;
   margin-top: 30px;
-  margin-left: 125px;
-  margin-right: 125px;
-  justify-content: center;
+  left: 27.79%;
   width: 200px;
   height: 50px;
   background-color: #2196F3;
