@@ -13,8 +13,9 @@
             display: none;
         }
     }
+}
     @media screen and (min-width: 768px) and (max-width: 1199px) {
-        padding-top: 21px;
+        padding-to: 21px;
         padding-bottom: 21px;
         .contacts{
             display: block;
@@ -31,19 +32,14 @@
         .contacts__list:not(:last-child) {
             margin-bottom: 10px;
         }
-        .mob-menu{
-            display: none;
     }
-}
+
     @media screen and (min-width: 1200px) {
         .contacts__list + .contacts__list{
             margin-left: 30px;    
         }
-        .mob-menu-open{
-            display: none;
     }
-    }
-}
+    
     // @media screen and (min-width: 481px) {
     //     padding-top: 21px;
     //     padding-bottom: 21px;
@@ -148,6 +144,7 @@
     height: 40px;
     padding: 0;
     margin-left: auto;
+
 }
 
 .btn-menu{
