@@ -621,14 +621,26 @@ body {
   background-color: var(--background-color);
   color: #FFFFFF;
   flex-grow: 1;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/buissness-bg.jpg);
-  max-width: 1600px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/buissness-bg-mob.jpg);
   margin: 0 auto;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .business {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/buissness-bg-mob-x2.jpg);
+  }
 }
 @media screen and (min-width: 768px) {
   .business {
     padding: 118px 204px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/buissness-bg-tab.jpg);
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .business {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/buissness-bg-tab-x2.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -638,11 +650,17 @@ body {
     padding-bottom: 200px;
     background-color: var(--background-color);
     color: #FFFFFF;
+    max-width: 1600px;
     flex-grow: 1;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/buissness-bg.jpg);
     max-width: 1600px;
     margin: 0 auto;
     background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .business {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/buissness-bg-x2.jpg);
   }
 }
 
