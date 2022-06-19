@@ -486,7 +486,6 @@ body {
 
 .mob-info {
   position: fixed;
-  z-index: 1;
   width: 100vw;
   height: 100vh;
   top: 0;
@@ -496,7 +495,7 @@ body {
   padding-bottom: 48px;
 }
 .mob-info.is-hidden {
-  opacity: 0;
+  display: none;
   pointer-events: none;
 }
 .mob-info .container {
@@ -507,6 +506,7 @@ body {
   justify-content: space-between;
   padding-left: 40px;
   overflow-y: auto;
+  z-index: 1;
 }
 
 .icon-close-btn {
