@@ -653,6 +653,10 @@ body {
   margin-bottom: 100px;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .modal-section {
   display: none;
 }
