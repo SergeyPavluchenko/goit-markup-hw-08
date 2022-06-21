@@ -314,6 +314,17 @@ body {
   color: #2196F3;
   text-decoration: none;
 }
+@media screen and (min-width: 1200px) {
+  .footer-name {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+  }
+}
 
 .footer-logo {
   font-family: "Raleway";
@@ -1088,6 +1099,7 @@ body {
 }
 @media screen and (max-width: 480px) {
   .client-li {
+    max-width: 480px;
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
@@ -1111,7 +1123,7 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .client-img {
     width: calc(50% - 30px);
     margin-left: 30px;
@@ -1244,6 +1256,55 @@ body {
   color: var(--text-color);
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer .container .container-soc {
+    margin-top: 0;
+  }
+  .footer .container .registered-box {
+    margin-top: 60px;
+  }
+  .footer .container .footer-imput {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer .container {
+    display: flex;
+  }
+  .footer .container .container-soc {
+    margin-top: 12px;
+  }
+  .footer .container .address-conteiner {
+    margin-bottom: 20px;
+    margin-right: 70px;
+  }
+  .footer .container .footer-pad:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  .footer .container .footer-name {
+    display: block;
+  }
+  .footer .container .footer-address {
+    text-align: start;
+  }
+  .footer .container .registered-box {
+    margin-left: 93px;
+    text-align: left;
+  }
+  .footer .container .form-box {
+    display: flex;
+    align-items: center;
+  }
+  .footer .container .footer-button {
+    margin-left: 12px;
+  }
+}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1263,7 +1324,7 @@ body {
 }
 
 .footer-pad:not(:last-child) {
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 .footer-text {
