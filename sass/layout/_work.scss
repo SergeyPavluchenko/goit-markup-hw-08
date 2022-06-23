@@ -35,14 +35,12 @@
         .work-priorities:not(:last-child){
             margin-right: 30px;
             }
-    }
-    @media screen and (min-width: 1200px) {
-        width: 270px;
-        height: 251px;
-    }
-
-    text-align: left;
-    
+        }
+        @media screen and (min-width: 1200px) {
+            width: 270px;
+            height: 251px;
+        }
+        text-align: left;
 }
 
 .work-svg{

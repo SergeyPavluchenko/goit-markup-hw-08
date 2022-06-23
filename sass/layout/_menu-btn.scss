@@ -1,0 +1,35 @@
+.main-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media screen and (min-width:768px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    @media screen and (min-width:1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}
+.main-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    @media screen and (max-width:767px) {
+        max-width: 480px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        margin-bottom: 40px;
+
+    }
+}
+
+.main h1{
+display: none;}
+
+.main-btn:not(:last-child) {
+    margin-right: 8px;
+    @media screen and (max-width:767px) {
+        margin-bottom: 15px;
+    }
+}
