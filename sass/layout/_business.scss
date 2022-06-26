@@ -3,20 +3,24 @@
 }
 
 .business{
-    text-align: center;
-    padding: 118px 60px;
-    background-color: var(--background-color);
-    color: #FFFFFF;
-    flex-grow: 1;
-    background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/buissness-bg-mob.jpg);
-    margin: 0 auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-            background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/buissness-bg-mob-x2.jpg);
+    @media screen and (min-width: 320px) {
+        width: 100%;
+        text-align: center;
+        width: 100%;
+        padding: 118px 60px;
+        background-color: var(--background-color);
+        color: #FFFFFF;
+        flex-grow: 1;
+        background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/buissness-bg-mob.jpg);
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/buissness-bg-mob-x2.jpg);
+        }
     }
     @media screen and (min-width: 768px) {
         padding: 118px 204px;

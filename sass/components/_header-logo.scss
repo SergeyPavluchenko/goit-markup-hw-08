@@ -1,5 +1,5 @@
 .header__logo{
-    margin-right: auto;
+    margin-right: 93px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -8,8 +8,9 @@
     color: #2196F3;
     text-decoration: none;
 
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1199px) {
         font-family: 'Raleway';
+        margin-right: 88px;
         font-weight: 700;
         font-size: 24px;
         line-height: 1.17;
